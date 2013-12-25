@@ -16,6 +16,9 @@ Package.on_use(function (api){
 	api.add_files('lib/address/address.css', 'client');
 	api.add_files('lib/address/address.js', 'client', {bare:true});
 
+    //moment
+	api.add_files('lib/moment/moment.min.js', 'client', {bare:true});
+
 	//wysihtml5
 	api.add_files('lib/wysihtml5/wysihtml5.js', 'client', {bare:true});  
 	api.add_files('lib/wysihtml5/bootstrap-wysihtml5-0.0.2/wysiwyg-color.css', 'client');
